@@ -1,7 +1,7 @@
 ---
 title: "tutorial-sophie-test"
 knit: (function(input_file, encoding) {
-  out_dir <- 'turorial-master';
+  out_dir <- 'docs';
   rmarkdown::render(input_file,
  encoding=encoding,
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
@@ -117,7 +117,7 @@ You can also go into `Files` in the `Files,Plots,Packages...` (bottom right). On
 Both methods correspond to writing the command (which in red is the path to your documents inside your computer) :
 
 ```{r set_working_directory}
-setwd("~/UdeS/STAGES/Été 2020/R/Creating a tutorial")
+setwd("~/tutorial-sophie/")
 ```
 
 
@@ -335,7 +335,7 @@ xfun::embed_file('datas_example.txt')
 To open a document/file in RStudio, set the appropriate Working Directory (as seen in Set Your Workspace). Again, your code between the parentheses will be different because it refers to the workspace in **your** computer.
 
 ```{r set_wd}
-setwd("~/UdeS/STAGES/Été 2020/R/Creating a tutorial")
+setwd("~/tutorial-sophie/")
 ```
 
 
